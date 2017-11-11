@@ -1,5 +1,5 @@
-describe(`simple js unit testing`, function() {
-  it(`simple test case`, function() {
+describe(`simple js unit testing`, () => {
+  it(`simple test case`, () => {
     expect(true).toBe(true);
   });
 });
